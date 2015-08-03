@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.pluckkDel"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Pluckk</name>
+    <preference name="phonegap-version" value="cli-5.1.1" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="permissions" value="none"/>
+    <preference name="webviewbounce" value="true" />
+    
+    
+    <description>
+        Want it? Pluckk it! Your one stop shop for all your groceries need! 
+    </description>
+
+    <author href="http://www.infinisystems.com" email="">
+        Infini Systems
+    </author>
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
+   
+</widget>
